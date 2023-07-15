@@ -55,3 +55,15 @@ body {
 .subsidiary {
   flex: 0 0 50%;
 }
+
+.Quotes {
+  font-size: 20px;
+}
+
+.Quotes > h2 {
+  text-align: center;
+}
+
+.Quotes > ul > li {
+  list-style: none;
+}
