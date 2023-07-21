@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './calculator.css';
+import '../styles/calculator.css';
 
 const Quotes = () => {
   const [data, setData] = useState([]);
@@ -35,7 +35,6 @@ const Quotes = () => {
 
   return (
     <div className="Quotes">
-      <h2>Quotes</h2>
       <ul>
         {data.map((item) => (
           <li key={item.quote}>{`${item.quote}-${item.author}`}</li>
