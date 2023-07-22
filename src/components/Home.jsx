@@ -1,7 +1,8 @@
 import React from "react";
+import style from "../styles/Home.module.css";
 
 const Home = () => (
-  <div className="home">
+  <div className={style.home}>
     <h3>Welcome to Our Page</h3>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam illum

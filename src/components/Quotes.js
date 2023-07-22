@@ -28,7 +28,6 @@ const Quotes = () => {
     };
     fetchData();
   }, [setData, setLoading]);
-  console.log(data);
   if (hasError) return <div>Something went wrong!</div>;
 
   if (loading) return <div>Loading...</div>;
