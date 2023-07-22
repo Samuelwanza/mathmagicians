@@ -7,6 +7,13 @@ body {
   box-sizing: border-box;
 }
 
+.calpage {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  width: 90vw;
+}
+
 .calculator-container {
   width: 500px;
   background: lightgray;
@@ -58,6 +65,7 @@ body {
 
 .Quotes {
   font-size: 20px;
+  width: 90vw;
 }
 
 .Quotes > h2 {
@@ -66,4 +74,6 @@ body {
 
 .Quotes > ul > li {
   list-style: none;
+  text-align: center;
+  margin-top: 100px;
 }
